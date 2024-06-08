@@ -35,30 +35,124 @@ On the other hand, YAML has gained a strong presence in particular areas of comp
 
 ## Examples:
 
-####YAML
-type: T-Shirt
-price: 20.00
-sizes:
-	S
-	M
-	L
-reviews: # Note about reviews
-	username: user1
-		rating: 4
-		created_at: 2023-04-19T12:30:00Z
-	username: user2
-		rating: 5
-		created_at: 2023-05-02T15:00:00Z
+#### YAML
+```
+---
+# <- yaml supports comments, json does not
+# did you know you can embed json in yaml?
+# try uncommenting the next line
+# { foo: 'bar' }
 
-####JSON
+json:
+  - rigid
+  - better for data interchange
+yaml:
+  - slim and flexible
+  - better for configuration
+object:
+  key: value
+  array:
+    - null_value: null
+    - boolean: true
+    - integer: 1
+    - alias: aliases are like variables
+    - alias: aliases are like variables
+paragraph: |
+  Blank lines denote
+  paragraph breaks
+content: |-
+  Or we
+  can auto
+  convert line breaks
+  to save space
+alias:
+  bar: baz
+alias_reuse:
+  bar: baz
+```
+
+#### JSON
+```
 {
-  "product": {
-    "type": "T-Shirt",
-    "price": 20.00,
-    "sizes": ["S", "M", "L"]
-    "reviews": {
-      { "username": "user1”, "rating": 4, "created_at": "2023-04-19T12:30:00Z" },
-      { "username": "user2”, "rating": 5, "created_at": "2023-05-02T15:00:00Z" }
-    }
+  "json": [
+    "rigid",
+    "better for data interchange"
+  ],
+  "yaml": [
+    "slim and flexible",
+    "better for configuration"
+  ],
+  "object": {
+    "key": "value",
+    "array": [
+      {
+        "null_value": null
+      },
+      {
+        "boolean": true
+      },
+      {
+        "integer": 1
+      },
+      {
+        "alias": "aliases are like variables"
+      },
+      {
+        "alias": "aliases are like variables"
+      }
+    ]
+  },
+  "paragraph": "Blank lines denote\nparagraph breaks\n",
+  "content": "Or we\ncan auto\nconvert line breaks\nto save space",
+  "alias": {
+    "bar": "baz"
+  },
+  "alias_reuse": {
+    "bar": "baz"
   }
 }
+```
+
+#### XML
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <json>rigid</json>
+     <json>better for data interchange</json>
+     <yaml>slim and flexible</yaml>
+     <yaml>better for configuration</yaml>
+     <object>
+         <key>value</key>
+         <array>
+             <null_value></null_value>
+         </array>
+         <array>
+             <boolean>true</boolean>
+         </array>
+         <array>
+             <integer>1</integer>
+         </array>
+         <array>
+             <alias>aliases are like variables</alias>
+         </array>
+         <array>
+             <alias>aliases are like variables</alias>
+         </array>
+     </object>
+     <paragraph>
+         Blank lines denote
+         paragraph breaks
+     </paragraph>
+     <content>
+         Or we
+         can auto
+         convert line breaks
+     to save space</content>
+     <alias>
+         <bar>baz</bar>
+     </alias>
+     <alias_reuse>
+         <bar>baz</bar>
+     </alias_reuse>
+ </root>
+```
