@@ -5,7 +5,7 @@ What method do we use to structure the data in the file.
 Needs to be a text based format. We do not need a binary format.
  - enables hand editing, readability, futureproofing.
 
-#### Possibilities
+### Possibilities
  - Yaml
    - most readable of the three. Best at configuration files.
    - a superset of json - it can contain json structures
@@ -20,8 +20,10 @@ Needs to be a text based format. We do not need a binary format.
    - a schema means we can verify correctness of a file.
    - very capable for complex descriptions (our needs are modest)
 
-Amaon web services have this to say:
-When to use YAML vs. JSON
+### Amazon web services have this to say:
+
+#### When to use YAML vs. JSON
+
 Thanks to pervasive support and integration with JavaScript, JSON is a more popular data serialization format for most use cases over YAML. JSON is used extensively in distributed software communications, web applications, configuration files, and APIs.
 
 While YAML may appear to be a better choice based on data typing and its human-readable format, JSON is typically preferred for cross-compatibility. This is because many applications and services already parse JSON data format.
