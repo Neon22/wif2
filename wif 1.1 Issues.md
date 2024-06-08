@@ -10,13 +10,13 @@ It has a number of weaknesses which have been discovered since its inception. So
 
 # Size and compression
 The format was designed with a single compression feature. This identifies the most common value in each section. This value is used for any index which is omitted.
-E.g. If the warp is 90% black threads then a single entry defines the default as black. So 90% of the warp threads do not need to be listed in the file. Only those threads that are not black appear in the associated section with their index into teh color section.
+E.g. If the warp is 90% black threads then a single entry defines the default as black. So 90% of the warp threads do not need to be listed in the file. Only those threads that are not black appear in the associated section with their index into the color section.
 
 This was useful to reduce file sizes in 1997. This is less of an issue now.
 The unfortunate side effect is that simple text editing of the file is made more complex because there is not always a simple list of index, value pairs.
 
 # Order of sections
-When computers had little RAM then the order of parsing elements could have a significant impact on importing teh file. This is no longer the case. The entire file can be consumed and processed simply. There is no longer a need for a specific processing order. 
+When computers had little RAM then the order of parsing elements could have a significant impact on importing the file. This is no longer the case. The entire file can be consumed and processed simply. There is no longer a need for a specific processing order. 
  - This may not be true for computer dobby controllers.
 
 # Usecases:
@@ -27,7 +27,7 @@ When computers had little RAM then the order of parsing elements could have a si
    - some have visual feedback showing the proposed state of the loom and current position in the sequence.
  - hand editing a file  (or using a dedicated software tool)
    - to manipulate the warp/weft/color aspects of the draft directly.
-   - made difficult of the simple size reduction scheme is enabled.
+   - made difficult if the simple size reduction scheme is enabled.
 
 
 # Weaknesses
