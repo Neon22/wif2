@@ -14,4 +14,4 @@ Issues we would like to solve, Features we would like to see.
 # Type of file:
 Needs to be a text based format. We do not need a binary format.
  - enables hand editing, readability, futureproofing.
- See [File Type](./wif2_File_Type.md)
+ See [File Type](./wif2 File Type.md)
