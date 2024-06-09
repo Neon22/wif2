@@ -3,14 +3,14 @@ Gathered discussion about a new wif file format.
 
 This repo contains gathered information about a potential new Weaving Interchange Format.
 
-The summary of informatin so far:
+The summary of information so far:
  - [wif2 summary](../main/wif2%20Summary.md)
  - [wif1.1 summary](../main/wif%201.1%20Issues.md)
  
 ### History
 The original (1997) is the wif 1.1 specification.
 Details here:
- - [wif 1.1 spec](../blob/main/wif1-1-copy.txt)
+ - [wif 1.1 spec](../main/wif1-1-copy.txt)
  - Original link  http://www.mhsoft.com/wif/wif1-1.txt
 
 ### Introduction to wif format
