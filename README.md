@@ -10,9 +10,10 @@ The summary of informatin so far:
 ### History
 The original (1997) is the wif 1.1 specification.
 Details here:
- - http://www.mhsoft.com/wif/wif1-1.txt
+ - [wif 1.1 spec](../blob/main/wif1-1-copy.txt)
+ - Original link  http://www.mhsoft.com/wif/wif1-1.txt
 
 ### Introduction to wif format
 If you don't know anything about weaving and wif files:
  - https://www.weavezine.com/content/whats-wif-got-do-it.html
- - https://longthreadmedia.nyc3.cdn.digitaloceanspaces.com/handwoven/WIF_FAQs.pdf?utm_campaign=iw-tsa-bl-170823-wif-pdf-faq
+ - https://longthreadmedia.nyc3.cdn.digitaloceanspaces.com/handwoven/WIF_FAQs.pdf
