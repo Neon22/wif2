@@ -9,6 +9,9 @@ Issues we would like to solve, Features we would like to see.
   - .
 - Carry additional information about the design
   - epi/ppi to enable better rendering options
+- Carry specific information for a specific weaving.
+  - yarn selection
+  - loom specifics
 
 
 # Type of file:

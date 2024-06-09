@@ -30,11 +30,12 @@ When computers had little RAM then the order of parsing elements could have a si
    - made difficult if the simple size reduction scheme is enabled.
 
 
-# Weaknesses
-Issues we would like to solve.
+# Weaknesses:
+
 - Allow cut and paste editing of files
-  - implies a text based system using lines
-  - implies all data in order - no simple compression
-- Carry additional information about the design
-  - E.g. epi/ppi
+- Differeniate between general design informatin a dna specific piece of cloth.
+  E.g. 
+  - epi/ppi
+  - Yarn selection
+- Enable enough optional sections so the file can be a principle weaving software file. Not purely for interchange.
   
